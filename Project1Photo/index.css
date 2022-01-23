@@ -1,0 +1,587 @@
+@font-face {
+  font-family: GothamRoundedBold;
+  src: url(/Project1Photo/Gotham\ Rounded\ Bold.otf);
+}
+@font-face {
+  font-family: GothamRoundedBook;
+  src: url(/Project1Photo/Gotham\ Rounded\ Book.otf);
+}
+@font-face {
+  font-family: GothamRoundedMedium;
+  src: url(/Project1Photo/Gotham\ Rounded\ Medium.otf);
+}
+
+.body{
+  margin: 0;
+  font-family: GothamRoundedBold;
+}
+
+.header_list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  list-style-type: none;
+  justify-items:center;
+  align-items: flex-end;
+  max-width: 758px;
+  max-height: 55px;
+  padding-top: 40px;
+  margin: 0 auto;
+}
+
+.header_button{
+  font-size: 16px;
+  text-transform: uppercase;
+  border: none;
+  background-color:rgba(255, 255, 255, 0);
+}
+
+.list_item a{
+text-decoration: none;
+color: white;
+}
+
+.button_get_started_and_learn_more{
+  font-size: 12px;
+  font-family: GothamRoundedBold;
+  height: 50px;
+  width: 167px;
+  background-color: #16A085;
+  border: none;
+  color: white;
+  box-shadow: 0 0 40px 40px #16A085 inset, 0 0 0 0 #16A085;
+  transition: all 150ms ease-in-out;
+}
+  
+.button_get_started_and_learn_more:hover {
+    box-shadow: 0 0 10px 0 #16A085 inset, 0 0 10px 4px #16A085;
+  }
+
+
+.button_get_started_first_page{
+  margin: 25px auto 0px;
+  
+}
+
+.div_button_get_started_and_lern_more{
+  display: flex;
+}
+
+.links{
+  display: flex;
+  width: 167px;
+  justify-content: space-evenly;
+  margin: 200px auto 26px;
+
+}
+
+.first_container{
+  background-image: url(/Project1Photo/Livello\ 1@1X.png);
+  background-size: cover;
+  max-width: 1280px;
+  min-height: 745px;
+  margin: 0px auto;
+}
+
+.main_title{
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  margin-top: 247px;
+  margin-bottom: 13px;
+}
+
+.text_first_page{
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}
+
+.second_container{
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #F5F6F7;
+  max-width: 1280px;
+  min-height: 495px;
+  margin: 0px auto;
+}
+
+.description_second_page{
+  text-transform: uppercase;
+  color: #16A085;
+  font-size: 18px;
+  max-width: 376px;
+  min-height: 35px;
+  margin-left: 129px;
+  margin-top: 100px;
+  margin-right: 140px;
+}
+
+.block_text{
+  font-family: GothamRoundedBook;
+  line-height: 1.78;
+  letter-spacing: 1.7px;
+  color:#373737;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.text_second_page{
+  text-align: left;
+  max-width: 428px;
+  min-height: 107px;
+  margin-top: 49px;
+  margin-left: 128px;
+  margin-right: 90px;
+}
+
+.button_get_started_second_page{
+  margin: 46px 345px 89px 128px;
+}
+
+.hand_with_iphone{
+  display: flex;
+  background-image: url(/Project1Photo/iPhone-removebg1.png);
+  width: 644px;
+  height: 400px;
+  margin-top: -215px;
+  margin-left: -100px;
+  }
+  
+  @media (max-width: 1205px) {
+    .links{
+      margin-top: 160px;
+    }
+    
+    .hand_with_iphone{
+        display: none;
+    }
+    .second_container{
+      justify-content: space-evenly;
+      min-height: 280px;
+    }
+     br{
+      display: none;
+    }
+      .button_get_started_second_page{
+        margin: 46px 90px 20px 60px;
+    }
+     .description_second_page{
+        margin-top: 50px;
+        margin-left: 60px;
+        margin-right: 70px;
+    }
+      .text_second_page{
+        margin-left: 60px;
+    }
+
+      .photo_iphone5c{
+        display: none;
+    }
+
+      .third_container_right__block_buttons_left_and_right{
+        display: none;
+    }
+
+      .third_container{
+        height:300px;
+    }
+
+      .third_container_right_block{
+        align-items: center;
+        padding: 0px 40px;
+    }
+
+      #design{
+        margin: 0px;
+    }
+
+      .community_block_images{
+        justify-content: center;
+    }
+
+      .fourth_container_brackets{
+        margin-right: 60px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 615px) {
+    .fourth_container{
+      flex-flow: wrap column;
+  }
+
+    .fifth_container{
+      background-repeat:round;
+      background-size:contain;
+}
+    #subscribe_container{
+      min-height: 300px;
+}
+
+    .button_android_logo{
+      margin-right: 20px;
+  }
+}
+
+@media (max-width: 860px) {
+    .download_container_textbox{
+      padding: 0 40px;
+  }
+}
+
+
+.third_container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  background-color: white;
+  max-width: 1280px;
+  max-height: 559px;
+  margin: 0px auto;
+}
+
+.third_container_left_block{
+  display: flex;
+  justify-content: end;
+  width: fit-content;
+}
+
+.third_container_right_block{
+  display: flex;
+  flex-flow: column nowrap;
+
+}
+
+.photo_iphone5c{
+  align-self: flex-end;
+  background-image: url(/Project1Photo/Flat\ iPhone\ 5C\ Mock\ Up.png);
+  width: 312px;
+  height: 409px;
+  margin: 145px 0px 0px 123px;
+}
+
+.description_third_page{
+  text-transform: uppercase;
+  color: #16A085;
+  font-size: 18px;
+  width: 83px;
+  height: 14px;
+  margin-top: 147px;
+  margin-right: 431px;
+  margin-bottom: 0px;
+}
+
+.text_third_page{
+margin: 44px 0;
+}
+
+
+.third_container_right_block_numbers{
+  font-size: 12px;
+  color: #373737;
+}
+
+.third_container_right__block_buttons_left_and_right{
+  margin-top: 45px;
+}
+
+.third_container_right_block_numbers{
+  margin-bottom: 6px;
+  letter-spacing: 1.7px;
+}
+
+.button_left{
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.button_right{
+  cursor: pointer;
+}
+
+
+.fourth_container{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #F5F6F7;
+  max-width: 1280px;
+  min-height: 484px;
+  margin: 0px auto;
+}
+
+.green_camera{
+  width: 59px;
+  height: 55px;
+  margin: 0px auto;
+}
+
+.community_block{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 175px;
+  height: 244px;
+}
+
+.description_fourth_page{
+  text-transform: uppercase;
+  color: #373737;
+  font-size: 16px;
+  letter-spacing: 1.4px;
+  font-weight: bold;
+  width: 175px;
+  height: 13px;
+  margin: 30px 0px 24px 7px;
+}
+
+
+.text_fourth_page{
+  font-size: 10px;
+  width: 139px;
+  height: 34px;
+  font-family: GothamRoundedBook;
+  text-align: center;
+  color:#373737;
+  margin: 0px auto;
+}
+
+.community_right{
+ display: flex;
+ flex-flow: column nowrap;
+ align-items: flex-end;
+}
+
+.community_block_images{
+  display: flex;
+  flex-flow: wrap row;
+  margin-top: 8px;
+}
+
+.truck_png{
+  margin-right: 24px;
+}
+
+.autumn_png{
+  margin-right: 24px;
+}
+
+
+.fifth_container{
+  display: flex;
+  background-image: url(/Project1Photo/background3.png);
+  max-width: 1280px;
+  min-height: 790px;
+  margin: 0px auto;
+  justify-content: center;
+  align-content: center;
+}
+
+.subscribe_content{
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe_text{
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 24px;
+  letter-spacing: 1.4px;
+  font-weight: bold;
+  margin-bottom: 33px;
+}
+
+.mail_form{
+  display: flex;
+  flex-flow: nowrap row;
+}
+
+.mail_field {
+  font-family: GothamRoundedBook;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  width: 283px;
+  height: 64px;
+  background: #FFFFFF;
+  border-radius: 0px;
+  border: none;
+  padding: 0px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.subscribe_btn{
+    background-image: url(/Project1Photo/ButtonEmail@1X.png);
+    background-size: cover;
+    width: 66px;
+    height: 64px;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border: none;
+    padding-bottom: 2px;
+}
+
+.sixth_container{
+  display: flex;
+  flex-flow: wrap column;
+justify-content: space-around;
+  background-color: #F5F6F7;
+  max-width: 1280px;
+  min-height: 397px;
+  margin: auto;
+}
+
+.download_container{
+  display: flex;
+  flex-flow: wrap column;
+  align-content: center;
+}
+
+.description_download_container{
+  text-transform: uppercase;
+  color: #373737;
+  font-size: 20px;
+  letter-spacing: 1.4px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0px;
+}
+
+.download_container_textbox{
+  font-family: GothamRoundedMedium;
+  letter-spacing: 1.2px;
+  line-height: 18px;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  color:#373737;
+  max-width: 840px;
+  margin: 16px auto 0px;
+}
+
+.download_from_apple_store{
+  width: 242px;
+  height: 59px;
+  text-align: left;
+  border: none;
+  color: #FFFFFF;
+  background-color: rgba(26, 188, 156, 1);
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  cursor: pointer;
+}
+.button_apple_logo{
+  position: relative;
+  top: 23px;
+  right: 5px;
+  background-image: url(/Project1Photo/GreenAppleLogo@1X.png);
+  background-size: cover;
+  width: 58px;
+  height: 59px;
+  border: none;
+  margin-right: 24px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  cursor: pointer;
+}
+
+.download_from_android_store{
+  width: 242px;
+  height: 59px;
+  font-weight: bold;
+  text-align: left;
+  border: none;
+  color: #FFFFFF;
+  background-color: rgba(26, 188, 156, 1);
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  cursor: pointer;
+}
+
+.button_android_logo{
+  position: relative;
+  top: 23px;
+  right: 5px;
+  background-image: url(/Project1Photo/GreenAndroidLogo.png);
+  background-size: cover;
+  width: 58px;
+  height: 59px;
+  border: none;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  cursor: pointer;
+}
+
+.download_buttons_container{
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: center;
+}
+
+.footer{
+  display: flex;
+  flex-flow: wrap row;
+  background-color: white;
+  min-height: 131px;
+  max-width: 1280px;
+  margin: 0px auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer_left_block{
+max-width: 500px;
+}
+
+.footer_list{
+  display: flex;
+  font-family:GothamRoundedBold;
+  list-style-type: none;
+  justify-items: flex-start;
+  margin: 0px 0px 23px -45px;
+}
+
+.footer_button{
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #373737;
+  border: none;
+  background-color:rgba(255, 255, 255, 0);
+  letter-spacing: 1.5px;
+}
+
+.footer_button a{
+  color: #373737;
+  text-decoration: none;
+}
+
+.green_slash{
+  position: relative;
+  color:#16A085;
+  bottom: 1px;
+}
+
+.green_camera_footer{
+  width: 53px;
+  height: 55px;
+}
+
+.copyright_text{
+  color: #373737;
+  letter-spacing: 1.5px;
+  font-size: 14px;
+}
+
